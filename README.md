@@ -22,7 +22,11 @@ https://obsidian.md/download
   - [ ] Theme
     - Has template code
 - [ ] Make branching strategy README segment
-  - Dev forks this repo
+  - Dev clones this repo
+    - Remember where you clone this
+    - ...because need to open the Vault in Obsidian
+      - ...launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
+      - ...select the corresponding directory `.\obsidian-micro-hack\reference-plugin|theme-dir-here` which is also a Vault
   - Cut new branch from `main`
     - Develop inside Plugin or Theme dir
   - Push branch to remote
