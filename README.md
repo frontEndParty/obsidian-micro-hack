@@ -11,7 +11,8 @@ https://obsidian.md/download
 - [Obsidian.md/Build+a+Theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
   - [GH THEME Template Repo](https://github.com/obsidianmd/obsidian-sample-theme)
 ## Helpful Tips
-- Open Obsidian Dev Tools (like browser dev tools) by pressing `Ctrl+Shift+I` in Windows and Linux, or `Cmd-Option-I` on macOS.
+- Open Obsidian Dev Tools (like browser dev tools): `ctrl + shift + i` in Windows and Linux, or `cmd - option - i` on macOS.
+- Open Obsidian Command Palette: `ctrl + p`
 - Obsidian Development [Hot-Reload Plugin](https://github.com/pjeby/hot-reload)
 - The current version of Obsidian (as of 01/06/25) is `1.7.7` to be used with your `versions.json` if you include one 
 
