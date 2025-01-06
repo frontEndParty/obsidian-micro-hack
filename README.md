@@ -1,6 +1,6 @@
 # Front End Party! Obsidian Micro-Hack
 https://obsidian.md/download
-## Obsidian API
+### Obsidian API
 - https://docs.obsidian.md/Home
   - [Obsidian App Class](https://docs.obsidian.md/Reference/TypeScript+API/App)
 ---
