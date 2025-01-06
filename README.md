@@ -12,3 +12,18 @@ https://obsidian.md/download
   - [GH THEME Template Repo](https://github.com/obsidianmd/obsidian-sample-theme)
 ## Helpful Tips
 - Open Obsidian Dev Tools (like browser dev tools) by pressing `Ctrl+Shift+I` in Windows and Linux, or `Cmd-Option-I` on macOS.
+- Obsidian Development [Hot-Reload Plugin](https://github.com/pjeby/hot-reload)
+
+### TODOS
+- [ ] Make 2 vaults (with `.obsidian` dir in each)
+  - [ ] Plugin
+    - Has template code
+  - [ ] Theme
+    - Has template code
+- [ ] Make branching strategy README segment
+  - Dev forks this repo
+  - Cut new branch from `main`
+    - Develop inside Plugin or Theme dir
+  - Push branch to remote
+  - Winner gets PR into main
+- [ ] Add Open Source License 
