@@ -16,6 +16,14 @@ https://obsidian.md/download
 - Obsidian Development [Hot-Reload Plugin](https://github.com/pjeby/hot-reload)
 - The current version of Obsidian (as of 01/06/25) is `1.7.7` to be used with your `versions.json` if you include one 
 
+## Criteria
+| Weight | Content   |
+| ------ | --------- |
+| .5 | Cleanliness   |
+| .5 | Brevity       |
+| 1  | Creativity    |
+| 1  | Best Practice |
+
 ### TODOS
 - [ ] Make 2 vaults (with `.obsidian` dir in each)
   - [ ] Plugin
