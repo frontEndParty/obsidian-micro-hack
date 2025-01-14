@@ -1,10 +1,10 @@
 # Front End Party! Obsidian Micro-Hack
 <p align="center">
-  <img src="https://res.cloudinary.com/dbdyc4klu/image/upload/v1736825129/obsidian-logo-gradient_fbkepx.svg" height="200px" width="200px">  
+  <img src="https://res.cloudinary.com/dbdyc4klu/image/upload/v1736825129/obsidian-logo-gradient_fbkepx.svg" href="https://obsidian.md/download" height="200px" width="200px">  
 </p>
 
 
-https://obsidian.md/download
+## https://obsidian.md/download
 ### Obsidian API
 - https://docs.obsidian.md/Home
   - [Obsidian App Class Docs](https://docs.obsidian.md/Reference/TypeScript+API/App)
