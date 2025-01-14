@@ -1,0 +1,11 @@
+{
+	"id": "copy-image-shortcut",
+	"name": "Copy Image Shortcut",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Copy images inside your local markdown files to clipboard.",
+	"author": "Frontend Party!",
+	"authorUrl": "https://github.com/frontEndParty/obsidian-micro-hack",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}
