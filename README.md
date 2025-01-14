@@ -23,7 +23,7 @@ https://obsidian.md/download
 | 10 | Organization   |
 | 50 | Completeness   |
 
-- Time...
+- PR to `main` must be open by 7:15pm CT sharp!
 
 ### TODOS
 - [ ] Make 2 vaults (with `.obsidian` dir in each)
@@ -36,7 +36,7 @@ https://obsidian.md/download
     - Remember where you clone this
     - ...because need to open the Vault in Obsidian
       - ...launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
-      - ...select the corresponding directory `.\obsidian-micro-hack\reference-plugin|theme-dir-here` which is also a Vault
+      - ...select the corresponding directory `.\obsidian-micro-hack\vault` which is also a Vault
   - Cut new branch from `main`
     - Develop inside Plugin or Theme dir
   - Push branch to remote
