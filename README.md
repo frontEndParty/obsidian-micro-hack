@@ -24,11 +24,12 @@
 - 📌Install dependencies with `npm`
   - 📍`npm i`
 #### Develop & Test!
-- 📌Compile with HRM
-  - 📍`npm run dev`
+- ⭐IMPORTANT!! Download and extract this [vault.zip](https://github.com/user-attachments/files/18405726/vault.zip) in the root of `obsidian-micro-hack`
 - 📌Launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
 - 📌Click the "Open folder as vault" Open button
   - 📍Navigate to where you cloned the repo and select the subdirectory called "vault"
+- 📌Compile with HRM back in your terminal
+  - 📍`npm run dev`
  #### To Submit!
  - 📌`git push origin your-teams-branch`
  - 📌Navigate to GitHub and open a PR to `main`
@@ -50,5 +51,3 @@
 | 10 | Readability    |
 | 10 | Organization   |
 | 50 | Completeness   |
-
-[vault.zip](https://github.com/user-attachments/files/18405726/vault.zip)
