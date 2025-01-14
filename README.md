@@ -28,9 +28,7 @@
 - 📌Launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
 - 📌Click the "Open folder as vault" Open button
   - 📍Navigate to where you cloned the repo and select the subdirectory called "vault"
-- 📌Compile back in your terminal
-  - 📍`npm run dev` (_this will include Hot Module Reload_)
- #### Sandbox!
+#### Sandbox!
  - 📌In Obsidian, `ctrl + p`
  - 📌Type "settings" and press enter
    - 📍Or just press `ctrl + ,`
@@ -39,8 +37,11 @@
   - 📍You may need to press "Turn on and reload"
   - 📍If you do not see "Copy Image Shortcut" in your "Installed plugins" click on "Reload plugins" on the right
 
- ![image](https://github.com/user-attachments/assets/283603f8-3f75-4cfd-bc68-c25e966c5d44)
- #### To Submit!
+![image](https://github.com/user-attachments/assets/283603f8-3f75-4cfd-bc68-c25e966c5d44)
+#### Develop!
+- 📌Compile back in your terminal inside `src`
+  - 📍`npm run dev` (_this will include Hot Module Reload_)
+#### To Submit!
  - 📌`git push origin your-teams-branch`
  - 📌Navigate to GitHub and open a PR to `main`
  ***PR to `main` must be open by 7:15pm CT sharp!***
@@ -61,3 +62,7 @@
 | 10 | Readability    |
 | 10 | Organization   |
 | 50 | Completeness   |
+
+## Troubleshooting!
+- Your project folder structure should look like this
+![image](https://github.com/user-attachments/assets/9a062df7-2c17-43c7-970a-25691ac0da87)
