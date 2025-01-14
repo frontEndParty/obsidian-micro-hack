@@ -15,14 +15,14 @@
 
 ### Workflow!
 #### To Start!
-📌- Clone down this repo
-  📍- Remember where you clone it
-📌- Navigate into the `obsidian-micro-hack` directory
-📌- Cut your team a branch from main:
-  📍- `git checkout -b your-teams-branch`
-📌- Navigate into the `src` subdirectory
-📌- Install dependencies with `npm`
-  📍- `npm i`
+- 📌Clone down this repo
+  - 📍Remember where you clone it
+- 📌Navigate into the `obsidian-micro-hack` directory
+- 📌Cut your team a branch from main:
+  - 📍`git checkout -b your-teams-branch`
+- 📌Navigate into the `src` subdirectory
+- 📌Install dependencies with `npm`
+  - 📍`npm i`
 #### Develop & Test!
 - Launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
 - Click the "Open folder as vault" Open button
