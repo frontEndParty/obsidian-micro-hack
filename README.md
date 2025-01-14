@@ -7,9 +7,6 @@ https://obsidian.md/download
 ## Plugin
 - [Obsidian.md/Build-a-Plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)
   - [GH PLUGIN Template Repo](https://github.com/obsidianmd/obsidian-sample-plugin)
-## Theme
-- [Obsidian.md/Build-a-Theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
-  - [GH THEME Template Repo](https://github.com/obsidianmd/obsidian-sample-theme)
 ## Helpful Tips
 - Open Obsidian Dev Tools (like browser dev tools): `ctrl + shift + i` in Windows and Linux, or `cmd - option - i` on macOS.
 - Open Obsidian Command Palette: `ctrl + p`
