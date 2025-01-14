@@ -17,12 +17,16 @@ https://obsidian.md/download
 - The current version of Obsidian (as of 01/06/25) is `1.7.7` to be used with your `versions.json` if you include one 
 
 ## Criteria
-| Weight | Content   |
-| ------ | --------- |
-| .5 | Cleanliness   |
-| .5 | Brevity       |
-| 1  | Creativity    |
-| 1  | Best Practice |
+| Points | Topic      |
+| ------ | ---------- |
+| 10 | Cleanliness    |
+| 10 | Brevity        |
+| 10 | Creativity     |
+| 10 | Readability    |
+| 10 | Organization   |
+| 50 | Completeness   |
+
+- Time...
 
 ### TODOS
 - [ ] Make 2 vaults (with `.obsidian` dir in each)
