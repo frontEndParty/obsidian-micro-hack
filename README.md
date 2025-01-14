@@ -24,12 +24,12 @@
 - 📌Install dependencies with `npm`
   - 📍`npm i`
 #### Develop & Test!
-- Launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
-- Click the "Open folder as vault" Open button
-  - Navigate to where you cloned the repo and select the subdirectory called "vault"
+- 📌Launch Obsidian, press `ctrl + p`, type "vault", select "open another vault"
+- 📌Click the "Open folder as vault" Open button
+  - 📍Navigate to where you cloned the repo and select the subdirectory called "vault"
  #### To Submit!
- - `git push origin your-teams-branch`
- - Navigate to GitHub and open a PR to `main`
+ - 📌`git push origin your-teams-branch`
+ - 📌Navigate to GitHub and open a PR to `main`
  ***PR to `main` must be open by 7:15pm CT sharp!***
 
 ### Helpful Tips!
