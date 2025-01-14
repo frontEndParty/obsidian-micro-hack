@@ -29,16 +29,15 @@
 - 📌Click the "Open folder as vault" Open button
   - 📍Navigate to where you cloned the repo and select the subdirectory called "vault"
 - 📌Compile back in your terminal
-  - 📍`npm run dev`
-  - (_this will include Hot Module Reload_)
+  - 📍`npm run dev` (_this will include Hot Module Reload_)
  #### Sandbox!
- - In Obsidian, `ctrl + p`
- - Type "settings" and press enter
-   - Or just press `ctrl + ,`
-- Select "Community plugins" in the left side nav pane
-- Turn on community plugins
-  - You may need to press "Turn on and reload"
-  - If you do not see "Copy Image Shortcut" in your "Installed plugins" click on "Reload plugins" on the right
+ - 📌In Obsidian, `ctrl + p`
+ - 📌Type "settings" and press enter
+   - 📍Or just press `ctrl + ,`
+- 📌Select "Community plugins" in the left side nav pane
+- 📌Turn on community plugins
+  - 📍You may need to press "Turn on and reload"
+  - 📍If you do not see "Copy Image Shortcut" in your "Installed plugins" click on "Reload plugins" on the right
 
  ![image](https://github.com/user-attachments/assets/283603f8-3f75-4cfd-bc68-c25e966c5d44)
  #### To Submit!
