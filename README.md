@@ -62,7 +62,3 @@
 | 10 | Readability    |
 | 10 | Organization   |
 | 50 | Completeness   |
-
-## Troubleshooting!
-- Your project folder structure should look like this
-![image](https://github.com/user-attachments/assets/9a062df7-2c17-43c7-970a-25691ac0da87)
