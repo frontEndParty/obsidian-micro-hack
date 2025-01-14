@@ -3,9 +3,11 @@ https://obsidian.md/download
 ### Obsidian API
 - https://docs.obsidian.md/Home
   - [Obsidian App Class Docs](https://docs.obsidian.md/Reference/TypeScript+API/App)
----
+
 ### Plugin Docs
 - [Obsidian Plugin Getting-Started](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)
+
+---
 
 ### Workflow!
 #### To Start!
