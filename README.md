@@ -1,5 +1,6 @@
 # Front End Party! Obsidian Micro-Hack
-<img src="https://res.cloudinary.com/dbdyc4klu/image/upload/v1736825129/obsidian-logo-gradient_fbkepx.svg">
+<img src="https://res.cloudinary.com/dbdyc4klu/image/upload/v1736825129/obsidian-logo-gradient_fbkepx.svg" height="200px" width="200px">
+
 https://obsidian.md/download
 ### Obsidian API
 - https://docs.obsidian.md/Home
