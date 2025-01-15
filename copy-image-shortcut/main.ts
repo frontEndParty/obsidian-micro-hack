@@ -2,14 +2,26 @@ import { Menu, Notice, Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    this.registerDomEvent(document, 'click', (evt: MouseEvent) => {
+    this.registerDomEvent(document, 'auxclick', (evt: MouseEvent) => {
       const img = evt.target as HTMLImageElement;
-      fetch(img.src)
-        .then(response => response.blob())
-        .then(blob => {
-          copyImageToClipboard(blob)
-        });
+      const menu = new Menu();
+
+      menu.addItem((item) =>
+        item
+          .setTitle('Copy')
+          .setIcon('documents')
+          .onClick(() => {
+            new Notice('Copied');
+            fetch(img.src)
+              .then(response => response.blob())
+              .then(blob => {
+                copyImageToClipboard(blob)
+              });
+          })
+      );
+      menu.showAtMouseEvent(evt);
     });
+
   }
 }
 
