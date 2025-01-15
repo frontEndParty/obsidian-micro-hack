@@ -60,3 +60,5 @@
 | 10 | Readability    |
 | 10 | Organization   |
 | 50 | Completeness   |
+
+Goal: Make a plugin that lets you copy images inside obsidian text files then paste the actual image file, (right now obsidian just copies the path). First goal is to be able to right click the image and copy from the context menu. The second goal is to be able to cmd + c or ctrl + c the highlighted image.
