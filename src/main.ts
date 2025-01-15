@@ -1,4 +1,6 @@
-import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+import { Vault, App, Editor,Command, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, TFile } from 'obsidian';
+import { readFile } from 'fs'
+import { join } from 'path'
 
 // Remember to rename these classes and interfaces!
 
@@ -13,8 +15,25 @@ const DEFAULT_SETTINGS: CopyImageSettings = {
 export default class CopyImage extends Plugin {
 	settings: CopyImageSettings;
 
+			//add command to right-click menu
+	addMenuItem(command: Command) {
+		this.registerEvent(
+			this.app.workspace.on("editor-menu", (menu) => {
+				menu.addItem((item) => {
+					item.setTitle(command.name)
+					// .setIcon(command.icon)
+					.onClick(() => {
+						//@ts-ignore
+						this.app.commands.executeCommandById(command.id);
+					});
+				});
+			})
+		);
+	}
+	
 	async onload() {
 		await this.loadSettings();
+
 
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
@@ -28,40 +47,25 @@ export default class CopyImage extends Plugin {
 		const statusBarItemEl = this.addStatusBarItem();
 		statusBarItemEl.setText('Status Bar Text');
 
-		// This adds a simple command that can be triggered anywhere
-		this.addCommand({
-			id: 'open-sample-modal-simple',
-			name: 'Open sample modal (simple)',
-			callback: () => {
-				new SampleModal(this.app).open();
-			}
-		});
 		// This adds an editor command that can perform some operation on the current editor instance
 		this.addCommand({
-			id: 'sample-editor-command',
-			name: 'Sample editor command',
-			editorCallback: (editor: Editor, view: MarkdownView) => {
+			id: 'copy-current-image',
+			name: 'Copy current image',
+			editorCallback: async (editor: Editor, view: MarkdownView) => {
 				console.log(editor.getSelection());
-				editor.replaceSelection('Sample Editor Command');
-			}
-		});
-		// This adds a complex command that can check whether the current state of the app allows execution of the command
-		this.addCommand({
-			id: 'open-sample-modal-complex',
-			name: 'Open sample modal (complex)',
-			checkCallback: (checking: boolean) => {
-				// Conditions to check
-				const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
-				if (markdownView) {
-					// If checking is true, we're simply "checking" if the command can be run.
-					// If checking is false, then we want to actually perform the operation.
-					if (!checking) {
-						new SampleModal(this.app).open();
-					}
-
-					// This command will only show up in Command Palette when the check function returns true
-					return true;
-				}
+		    const sel = editor.getSelection()
+		    console.log(`You have selected: ${sel}`);
+		    const extractPath = /\!\[\[(.*)\]\]/g;
+		    const matches = [...sel.matchAll(extractPath)]
+		    console.log('Matches:', matches)
+		    const path = (matches.length > 0) ? matches[1].toString() : sel
+		    console.log(`Image path: ${path}`);
+		    const tFile = this.app.vault.getAbstractFileByPath(path)
+		    if (!tFile) { return }
+		    if (tFile instanceof TFile) {
+			    const pngBytes = await this.app.vault.readBinary(tFile)
+			    console.log(`Read: ${pngBytes}`);
+		    }
 			}
 		});
 
