@@ -7,8 +7,9 @@ _By Frontend Party_
 ### Obsidian API Docs
 - [API Home](https://docs.obsidian.md/Home)
 ### Quickstart
-- ...
-
+- Right click on any image in your markdown
+- Select the "Copy" option
+- You can now paste this image anywhere
 ---
 
 | Author | Github |
@@ -16,6 +17,12 @@ _By Frontend Party_
 | Ian Painter | its-all-waves |
 | Persis Randolph | persis-randolph |
 | Ryan Hageman | ryanhageman |
+
+| Maintainer | Github |
+| ---------- | ------ |
+| Robert Frank | jrfiii |
+| Colin Williams | colinwilliams91 |
+| Kalypso Homan | kalypsohoman |
 
 ---
 
